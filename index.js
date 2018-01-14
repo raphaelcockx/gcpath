@@ -35,7 +35,7 @@ module.exports = function (options) {
 
     greatCircle.properties.stroke = pathColour
 
-    var mapBoxUrl = `https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s-${fromIcon}+${fromColour}(${fromAirport.long},${fromAirport.lat}),pin-s-${toIcon}+${toColour}(${toAirport.long},${toAirport.lat}),geojson(${encodeURIComponent(JSON.stringify(greatCircle))}/auto/${width}x${height}?access_token=${token}`
+    var mapBoxUrl = `https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/geojson(${encodeURIComponent(JSON.stringify(greatCircle))}),pin-s-${fromIcon}+${fromColour}(${fromAirport.long},${fromAirport.lat}),pin-s-${toIcon}+${toColour}(${toAirport.long},${toAirport.lat})/auto/${width}x${height}?access_token=${token}`
 
     request
       .get(mapBoxUrl)

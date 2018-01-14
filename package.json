@@ -1,6 +1,6 @@
 {
   "name": "gcpath",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express middleware to map the great circle path between any two airports.",
   "main": "index.js",
   "repository": {
