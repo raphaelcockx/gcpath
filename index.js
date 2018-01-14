@@ -20,6 +20,12 @@ module.exports = function (options) {
   toColour = toColour.substr(1)
 
   return function (req, res, next) {
+    // Check whether a token was provided
+    if (token === undefined) {
+      res.status(401).send('Please provide your Mapbox token in the options object')
+      return undefined
+    }
+
     var fromAirport = airports[req.params.from]
     var toAirport = airports[req.params.to]
 
