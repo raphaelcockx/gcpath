@@ -1,36 +1,30 @@
 {
-    "name": "gcpath",
-    "version": "0.1.0",
-    "description": "Express middleware to map the great circle path between any two airports.",
-    "main": "index.js",
-    "dependencies": {
-        "@turf/great-circle": "^5.1.5",
-        "@turf/helpers": "^6.0.0-beta.3",
-        "request": "^2.83.0"
-    },
-    "devDependencies": {
-        "axios": "^0.17.1",
-        "csvtojson": "^1.1.9",
-        "eslint": "^4.15.0",
-        "eslint-config-standard": "^10.2.1",
-        "eslint-plugin-import": "^2.8.0",
-        "eslint-plugin-node": "^5.2.1",
-        "eslint-plugin-promise": "^3.6.0",
-        "eslint-plugin-standard": "^3.0.1",
-        "express": "^4.16.2",
-        "lodash": "^4.17.4"
-    },
-    "keywords": [
-        "connect",
-        "express",
-        "middleware",
-        "great",
-        "circle",
-        "path",
-        "flights",
-        "airports",
-        "map"
-    ],
-    "author": "Raphael Cockx",
-    "license": "MIT"
+  "name": "gcpath",
+  "version": "0.1.0",
+  "description": "Express middleware to map the great circle path between any two airports.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphaelcockx/gcpath"
+  },
+  "dependencies": {
+    "@turf/great-circle": "^5.1.5",
+    "@turf/helpers": "^6.0.0-beta.3",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "csvtojson": "^1.1.9",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4"
+  },
+  "keywords": ["connect", "express", "middleware", "great", "circle", "path", "flights", "airports", "map"],
+  "author": "Raphael Cockx",
+  "license": "MIT"
 }
