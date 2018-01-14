@@ -6,7 +6,7 @@ It links up to simple formatted URLs with two IATA airport codes such as `/map/B
 
 ## How to use
 
-Gcpath can be use anywhere in your path structure but expects to receive two parameters named `:from` and `:to` that will contain upper case IATA codes when requested:
+Gcpath can be used anywhere in your path structure but expects to receive two parameters named `:from` and `:to` that will contain upper case IATA codes when requested:
 
 ```js
 
