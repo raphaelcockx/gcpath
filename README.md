@@ -31,8 +31,9 @@ In this configuration, a call to `/map/BRU/YYZ` will return a **512 by 512 pixel
 The gcpath function takes an object of options as the first and only parameter. Only one of these is required:
 
 * `token`: Your personal Mapbox API-token. [Check here](https://www.mapbox.com/help/how-access-tokens-work/) to obtain one. (required)
-* `width`: Width of the image in pixels  (default: 512)
-* `height`: Height of the image in pixels  (default: 512)
+* `width`: Width of the image in pixels (default: 512)
+* `height`: Height of the image in pixels (default: 512)
+* `style`: The [Mapbox style](https://www.mapbox.com/api-documentation/#styles) to use for the base layer of the map (default: 'streets-v10')
 * `fromIcon`: Name of the [Mapbox Maxi icon](https://www.mapbox.com/maki-icons/) to use at the origin airport (default: 'airport')
 * `fromColour`: Background colour (in hex format) of the icon to use at the origin aiport (default: '#002850')
 * `toIcon`: Name of the Mapbox Maxi icon to use at the destination airport (default: 'airport')
